@@ -1,16 +1,18 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import home from 'page/home/home';
-import content from 'page/home/children/content';
-// import detail from 'page/detail/detail';
-// import bookrack from 'page/bookrack/bookrack';
-// import catelog from 'page/catelog/catelog';
-// import reader from 'page/reader/reader';
-// import mine from 'page/mine/mine';
-// import login from 'page/mine/children/login';
-// import personal from 'page/mine/children/personal';
-// import register from 'page/mine/children/register';
-// import forget from 'page/mine/children/forget';
+
+const home = resolve => {require(['page/home/home'], resolve)};
+const content = resolve => {require(['page/home/children/content'], resolve)};
+const search = resolve => {require(['page/search/search'], resolve)};
+const detail = resolve => {require(['page/detail/detail'], resolve)};
+const bookrack = resolve => {require(['page/bookrack/bookrack'], resolve)};
+const catelog = resolve => {require(['page/catelog/catelog'], resolve)};
+const mine = resolve => {require(['page/mine/mine'], resolve)};
+const login = resolve => {require(['page/mine/children/login'], resolve)};
+const personal = resolve => {require(['page/mine/children/personal'], resolve)};
+const register = resolve => {require(['page/mine/children/register'], resolve)};
+const forget = resolve => {require(['page/mine/children/forget'], resolve)};
+const reader = resolve => {require(['page/reader/reader'], resolve)};
 
 Router.prototype.goBack = function () {
   this.isBack = true
@@ -40,67 +42,47 @@ export default new Router({
     {
       path: '/search',
       name: 'search',
-      component: function (resolve) {
-        require(['page/search/search'], resolve)
-      }
+      component: search
     },
     {
       path: '/detail',
-      component: function (resolve) {
-        require(['page/detail/detail'], resolve)
-      }
+      component: detail
     },
     {
       path: '/bookrack',
-      component: function (resolve) {
-        require(['page/bookrack/bookrack'], resolve)
-      }
+      component: bookrack
     },
     {
       path: '/catelog',
-      component: function (resolve) {
-        require(['page/catelog/catelog'], resolve)
-      }
+      component: catelog
     },
     {
       path: '/mine',
-      component: function (resolve) {
-        require(['page/mine/mine'], resolve)
-      },
+      component: mine,
       children: [
         {
           path: 'login',
           name: 'login',
-          component: function (resolve) {
-            require(['page/mine/children/login'], resolve)
-          }
+          component: login
         },
         {
           path: 'personal',
           name: 'personal',
-          component: function (resolve) {
-            require(['page/mine/children/personal'], resolve)
-          }
+          component: personal
         },
         {
           path: 'register',
-          component: function (resolve) {
-            require(['page/mine/children/register'], resolve)
-          }
+          component: register
         },
         {
           path: 'forget',
-          component: function (resolve) {
-            require(['page/mine/children/forget'], resolve)
-          }
+          component: forget
         }
       ]
     },
     {
       path: '/reader',
-      component: function (resolve) {
-        require(['page/reader/reader'], resolve)
-      }
+      component: reader
     }
   ]
 })
