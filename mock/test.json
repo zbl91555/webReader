@@ -1,0 +1,362 @@
+{
+  "status": 0,
+  "user_msg": "",
+  "fail_code": 0,
+  "data": {
+    "topic": {
+      "topic_type": 18,
+      "novel_type": 0,
+      "title": "我是你的谁？",
+      "images": [
+        {
+          "imgUrl": "http:%/%/img.diaobao.in%/diaobaoimg%/Fd%/Od%/oyi_43I8jSXULe2jJ7MBVp_rJ-Zvj1C4mM3YWMSwp1K0CjvN6msoOweknjI2.jpg",
+          "height": 150,
+          "width": 300,
+          "des": "",
+          "path": "http:%/%/img.diaobao.in%/diaobaoimg%/Fd%/Od%/oyi_43I8jSXULe2jJ7MBVp_rJ-Zvj1C4mM3YWMSwp1K0CjvN6msoOweknjI2.jpg",
+          "hash_name": ""
+        }
+      ],
+      "des": "小时候，他牵住他冰凉的小手，俯身问：“我是你的谁？”%n他眨眨眼睛，抱紧了怀里的仿真枪，崇拜的答：“你是我的小叔叔。”%n%n长大后，他眼里布满阴霾，恨不得把他踩在脚底下，问：“我是你的谁？”%n他痛苦却从不服输，执着又冷静的回答：“你是我的首长。”想就这样把自己推开？未免太小看自己了。%n%n多年后，他在战火纷飞的战场上问：“我是你的谁？”%n他搭上他的肩膀，目光坚毅，答：“你是我老大。”%n我终于有资格成为和你一起并肩作战、出生入死的好兄弟。%n%n再后来，他在床上结束了一场又一场的酣战后，爱抚着身下的人问：“我是你的谁？”%n他咬住他的喉结，把他吞进自己的身体更深处，沉声答：“你是，我的老攻。”%n此生，天上地下，身体里、灵魂里，唯你一人。%n%n本文长篇。讲述了伪叔侄相爱相杀，一群大老爷们在军队里搅基的事情。热血有，狗血也有。%n大攻吃小受，老牛吃嫩草。%n攻把受吃的死死的，把他弄的不要不要的，攻一直是受心中崇拜尊敬的男神，肉起来简直不要太带感！（是的。写言情写的我太饥渴了。忍不住要搞事情了！%n%n主cp：变态腹黑禁欲首长攻（叶凛）X 励志善良执着天才受（邹明羽）%n副cp：保密（你们来猜攻）X风骚浪荡柔弱受（林啸天）%n%n友情提示：%n1.本文有肉有粉红。%n2.兄弟文《上神师父不好惹》是凛羽师徒上辈子的故事，两篇文各自独立，可以连在一起看，也可以分开来看。%n甜宠灵异萌到爆炸的文《捡个僵尸未成年》，甜到爆炸哟！！快来看嘛！%n3.我们的口号是：关注游鱼，收藏文文，戳个小花，留言冒泡，鸡年大吉吧！",
+      "tagType": 0,
+      "user": {
+        "userId": 1761724,
+        "name": "腐底游鱼",
+        "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/i8%/GG%/n6wDXzb_HiY9WA2Zxkx9HEFZa3dPFF_MTGWUdGNefMaqexmdvJTCghn-Tno2.png",
+        "type": 1,
+        "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/141.png",
+        "signature": "谢天谢地，你们来了%n微博：游鱼认真码字中",
+        "following": 0,
+        "followed": 0
+      },
+      "comuBrief": {
+        "title": "",
+        "commId": 0,
+        "type": 0
+      },
+      "status": 1,
+      "article_num": 104,
+      "shareUrl": "http:%/%/doufu.la%/index.php%/shareManage%/topic?s=271475",
+      "author": "腐底游鱼",
+      "read_times": "1248334",
+      "praise_times": "0",
+      "add_time": "1486124505",
+      "elite": "0",
+      "tags": [
+        {
+          "id": "2180",
+          "name": "爽文",
+          "pattern": "爽文",
+          "match_num": "1",
+          "match_freq": "2",
+          "pingyin": "",
+          "pid": null,
+          "update_time": "1440749057",
+          "status": "1",
+          "class_id": "13",
+          "at_home": "1",
+          "default": "0",
+          "count": "109",
+          "is_recommend": "0",
+          "is_recommend_recommend": "0",
+          "flower_num": "0",
+          "w_img": null,
+          "icon": null,
+          "following_count": "500"
+        },
+        {
+          "id": "3481",
+          "name": "痴情",
+          "pattern": "痴情",
+          "match_num": "1",
+          "match_freq": "2",
+          "pingyin": "",
+          "pid": null,
+          "update_time": "1432746228",
+          "status": "1",
+          "class_id": "19",
+          "at_home": "0",
+          "default": "0",
+          "count": "93",
+          "is_recommend": "0",
+          "is_recommend_recommend": "0",
+          "flower_num": "0",
+          "w_img": null,
+          "icon": null,
+          "following_count": "3"
+        },
+        {
+          "id": "4438",
+          "name": "励志",
+          "pattern": "励志",
+          "match_num": "1",
+          "match_freq": "2",
+          "pingyin": "",
+          "pid": null,
+          "update_time": "1433825923",
+          "status": "1",
+          "class_id": "19",
+          "at_home": "0",
+          "default": "0",
+          "count": "88",
+          "is_recommend": "0",
+          "is_recommend_recommend": "0",
+          "flower_num": "0",
+          "w_img": null,
+          "icon": null,
+          "following_count": "3"
+        },
+        {
+          "id": "81175",
+          "name": "军队制服",
+          "pattern": "军队制服",
+          "match_num": "1",
+          "match_freq": "2",
+          "pingyin": "",
+          "pid": null,
+          "update_time": "1486124504",
+          "status": "1",
+          "class_id": "19",
+          "at_home": "0",
+          "default": "0",
+          "count": "2",
+          "is_recommend": "0",
+          "is_recommend_recommend": "0",
+          "flower_num": "0",
+          "w_img": null,
+          "icon": null,
+          "following_count": "6"
+        }
+      ],
+      "sexuality": "1",
+      "is_bl": "1",
+      "banner_link": "",
+      "finished": "1",
+      "flowerCount": "46383",
+      "sticked": 0,
+      "collect_times": "3842",
+      "comment_times": "1672",
+      "update_time": 1492614152,
+      "object_type": 5,
+      "id": 271475,
+      "grant_type": null,
+      "publish_type": "3",
+      "is_original": "1",
+      "novel_source": "",
+      "sexual_name1": "叶凛",
+      "sexual_name2": "邹明羽",
+      "is_vip": "1",
+      "end_price": 0,
+      "total_price": 972,
+      "end_price_update": null,
+      "length": 215767,
+      "praisers": [],
+      "flowerers": [
+        {
+          "num": "2083",
+          "user": {
+            "userId": 2762959,
+            "name": "foreverʚ",
+            "icon": "http:%/%/wx.qlogo.cn%/mmopen%/ogoe6eEVMNruZ6cksQczKuMsia5mRtz9Iy0BZznJQES1zEoWf39rVgb0nlZ4llQ2TYhk6zTco7uDFU9XVeJ8LltBeCLlZMn4g%/0",
+            "type": 1,
+            "medal": "",
+            "signature": ""
+          }
+        },
+        {
+          "num": "1982",
+          "user": {
+            "userId": 1292688,
+            "name": "余生不悲欢",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/IH%/Nq%/tD7RRrMGQrinXVmoepUUaimtoB_czTmIAKT0prAVXWBwrXes1GeyOHbEhah4.png",
+            "type": 1,
+            "medal": "",
+            "signature": "纵身入尘埃里，雷雨大作我也放声而歌。"
+          }
+        },
+        {
+          "num": "1401",
+          "user": {
+            "userId": 896489,
+            "name": "荼毒°",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/pJ%/46%/w1IJektdGL4K3OaaiDo3kkEjkZMr7xKUxTUif6UhFAIKngIyaMMCWU7s-OpG.png",
+            "type": 1,
+            "medal": "",
+            "signature": "失之我命，得之我命"
+          }
+        },
+        {
+          "num": "1176",
+          "user": {
+            "userId": 1856318,
+            "name": "难你吗",
+            "icon": "http:%/%/q.qlogo.cn%/qqapp%/1101901816%/00A983CBD3D81F0B1F8E53193681AB8F%/40",
+            "type": 1,
+            "medal": "",
+            "signature": ""
+          }
+        }
+      ],
+      "reward_sum": 89689,
+      "rewarders": [
+        {
+          "user": {
+            "userId": 2965996,
+            "name": "吃吃吃吃吃包菜",
+            "icon": "http:%/%/q.qlogo.cn%/qqapp%/1101901816%/DCBCB9EA41A955476DE2F4CF9C8BF969%/100",
+            "type": 1,
+            "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/111.png",
+            "signature": ""
+          }
+        },
+        {
+          "user": {
+            "userId": 1721661,
+            "name": "折锦",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/ou%/i6%/EoVEV5iZajNxkYBpqyhzihsEffjr4jfB57x0KthjuASKFgNQqp2UEn1BlpzE.png",
+            "type": 1,
+            "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/131.png",
+            "signature": "建国后飞升的咸鱼要用地雷炸出来。"
+          }
+        },
+        {
+          "user": {
+            "userId": 1775819,
+            "name": "怅然久伴",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/O7%/Wr%/dtDD9pxz10esIV0YqYJT5tGbwTdYDf0tYz1oyRrhlh4ucS3Ai_cfIbpG4dl7.png",
+            "type": 1,
+            "medal": "",
+            "signature": "原来悲欢并不相通，我只觉得他们吵闹。"
+          }
+        },
+        {
+          "user": {
+            "userId": 1761724,
+            "name": "腐底游鱼",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/i8%/GG%/n6wDXzb_HiY9WA2Zxkx9HEFZa3dPFF_MTGWUdGNefMaqexmdvJTCghn-Tno2.png",
+            "type": 1,
+            "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/141.png",
+            "signature": "谢天谢地，你们来了%n微博：游鱼认真码字中"
+          }
+        }
+      ],
+      "hot_comments": [
+        {
+          "id": "2208059",
+          "uid": "2949456",
+          "article_id": "0",
+          "comment_time": "1490589227",
+          "comment_content": "嗯，这个名字让我想到了一首歌，很黄的歌😒",
+          "status": "1",
+          "like_times": "60",
+          "update_time": "1490589227",
+          "replies": [
+            {
+              "id": "1463812",
+              "article_id": "0",
+              "comment_id": "2208059",
+              "add_time": "1490597505",
+              "content": "你想的特别对√哈哈哈",
+              "content_image": "",
+              "uid": "1761724",
+              "to_uid": "0",
+              "status": "1",
+              "to_reply_id": "0",
+              "grandpa_id": "0",
+              "grandpa_type": "0",
+              "user": {
+                "nickname": "腐底游鱼",
+                "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/141.png",
+                "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/i8%/GG%/n6wDXzb_HiY9WA2Zxkx9HEFZa3dPFF_MTGWUdGNefMaqexmdvJTCghn-Tno2.png",
+                "userId": "1761724"
+              }
+            },
+            {
+              "id": "1465630",
+              "article_id": "0",
+              "comment_id": "2208059",
+              "add_time": "1490656840",
+              "content": "你喜欢谁唱的？我觉得原唱没有魂总有嗯……那啥，有感觉！对，原唱没有魂总有感觉，我是这么觉得。也不是说原唱唱得不好，只是他没有魂总有感觉😜",
+              "content_image": "",
+              "uid": "2949456",
+              "to_uid": "1761724",
+              "status": "1",
+              "to_reply_id": "1463812",
+              "grandpa_id": "0",
+              "grandpa_type": "0",
+              "user": {
+                "nickname": "忘尘戏韵",
+                "medal": "",
+                "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/PY%/2E%/HPy2JiVLvSxaYfWChw9KRAzltJAhPylIA5g7WrShIKQ8AoT5EJewfmyJZImX.png",
+                "userId": "2949456"
+              },
+              "to_user": {
+                "nickname": "腐底游鱼",
+                "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/141.png",
+                "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/i8%/GG%/n6wDXzb_HiY9WA2Zxkx9HEFZa3dPFF_MTGWUdGNefMaqexmdvJTCghn-Tno2.png",
+                "userId": "1761724"
+              }
+            }
+          ],
+          "reply_times": "26",
+          "content_image": "",
+          "target_type": "1",
+          "topic_id": "271475",
+          "parent_type": "5",
+          "authorUid": "1761724",
+          "topic_title": "我是你的谁？",
+          "removeEnable": 0,
+          "isAuthor": 0,
+          "has_liked": 0,
+          "user": {
+            "nickname": "忘尘戏韵",
+            "medal": "",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/PY%/2E%/HPy2JiVLvSxaYfWChw9KRAzltJAhPylIA5g7WrShIKQ8AoT5EJewfmyJZImX.png",
+            "userId": "2949456"
+          }
+        },
+        {
+          "id": "2278885",
+          "uid": "1761724",
+          "article_id": "0",
+          "comment_time": "1492438696",
+          "comment_content": "致点到这里的读者大大们：%n1.《我是你的谁？》正文部分已于100章正式完结啦，新来的读者大大们可收藏后放心的看喔！%n%n2.本文亮点，喜欢的读者大大千万不要错过：%n①军队制服，没看过军旅爷们打仗训练谈恋爱的快快收藏哈。%n②CP众多，各种类型美男出没。包括：腹黑首长攻x暖男天才受；霸道强势攻x风骚浪荡受；暴躁藏人攻x温和教官受。%n③最最最重要的是――有！血！有！肉！小鱼算了一下哈，在这100章里一共开了五趟车。包括春药play；天台play；帐篷play；山洞play；镜子play……每次的纯肉play最少两千字，最多四千字😂😂佩服我吧！（食肉动物千万别错过！！！！%nPS.这些纯肉们尺度太大，咱们关起门来，怎么爽怎么来，在外面还是要正经的，纯肉的传送门在作者有话说里有交代，文里你们找不到哒。文里全是热血剧情，肉也要配合剧情才会更香的喔！笔芯。%n%n3.番外持续发送中，日更4000字，每晚更新；直到五月份永久完结，不再更新。%n%n4.新文未发布，正存稿中，到五月份开文。小炸毛跟小磕碜的故事233努力存稿ww我真的炒鸡兴奋哒（读者大大们，点个关注才能不迷路喔！%n%n5.特别鸣谢：吃吃吃吃吃包菜 大佬的一路包养与陪伴支持。感谢诸位读者大大们肯赏脸阅读本文，永远爱你们啊，么么哒！%n%n大家赞我上去嘛👍👍",
+          "status": "1",
+          "like_times": "45",
+          "update_time": "1492438696",
+          "replies": [],
+          "reply_times": "0",
+          "content_image": "",
+          "target_type": "1",
+          "topic_id": "271475",
+          "parent_type": "5",
+          "authorUid": "1761724",
+          "topic_title": "我是你的谁？",
+          "removeEnable": 0,
+          "isAuthor": 1,
+          "has_liked": 0,
+          "user": {
+            "nickname": "腐底游鱼",
+            "medal": "http:%/%/imgold.doufu.la%/doufu%/img%/medal%/141.png",
+            "icon": "http:%/%/imgold.doufu.la%/diaobaoimg%/i8%/GG%/n6wDXzb_HiY9WA2Zxkx9HEFZa3dPFF_MTGWUdGNefMaqexmdvJTCghn-Tno2.png",
+            "userId": "1761724"
+          }
+        }
+      ],
+      "red_envelope_count": "133",
+      "red_envelope_unexpired": 1,
+      "red_envelope_unexpired_read": 0,
+      "month_ticket_sum": 28,
+      "has_fav": false,
+      "has_praise": false
+    },
+    "ids": [
+      1970921
+    ],
+    "has_permissions": 1
+  },
+  "time_begin": 1492684195.970435,
+  "time_cost": 0.03555703163146973,
+  "trace": [],
+  "ip": "85.61"
+}

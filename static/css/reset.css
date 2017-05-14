@@ -1,0 +1,94 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  color: #000;
+  background: #f4f4f4;
+  font-size: 12px;
+  line-height: 1.25;
+  font-family: 'Helvetica Neue', Tahoma, Arial, PingFangSC-Regular, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+
+}
+
+th, td {
+  text-align: left;
+  vertical-align: top
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: normal
+}
+
+/*p {*/
+/*margin: 0 0 1em 0*/
+/*}*/
+
+blockquote {
+  margin: 0 0 1em 0
+}
+
+a {
+  color: #14647d;
+  text-decoration: none;
+  font-family: tahoma, arial, \5b8b\4f53, sans-serif;
+  _font-family: arial, sans-serif
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+img {
+  display: block;
+  border: 0
+}
+
+li {
+  list-style: none
+}
+
+ol {
+  padding: 0 0 0 2em
+}
+
+input, label, select, option, textarea, button, fieldset, legend {
+  font-size: 1em;
+  font-family: tahoma, arial, \5b8b\4f53, sans-serif;
+  _font-family: Arial, sans-serif
+}
+
+input[type=text], textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  outline: none
+}
+
+input.text {
+  color: #444;
+  border-color: #9f9f9f #dcdcdc #dcdcdc #9f9f9f;
+  border-style: solid;
+  border-width: 1px;
+  padding: 3px 2px;
+  height: 14px
+}
+
+input.radio, input.checkbox {
+  margin-right: 2px;
+  vertical-align: -2px
+}
+
+input.radio, input.checkbox {
+  margin-left: -2px
+}
+
+textarea {
+  border-color: #9f9f9f #dcdcdc #dcdcdc #9f9f9f;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px;
+  resize: none
+}
