@@ -14,7 +14,7 @@ vue2 + vuex + vue-router + webpack + ES6 + axios + less + flex
 在线预览地址： [webapp-reader](http://120.25.254.139/#/home/content) (PC端请在浏览器的移动端模式下查看)
 
 ### 移动端（手机）演示
-![首页](https://github.com/zbl91555/webReader/blob/master/preview/%E9%A6%96%E9%A1%B5.png)
+![QR code](https://github.com/zbl91555/webReader/blob/master/QR%20code.png)
 
 ### 预览图
 ![首页](https://github.com/zbl91555/webReader/blob/master/preview/%E9%A6%96%E9%A1%B5.png)
