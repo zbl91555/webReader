@@ -26,7 +26,7 @@ var proxyTable = config.dev.proxyTable;
 var app = express();
 
 
-//发生数据请求
+/*//发生数据请求
 var content = require('../mock/home/content');
 var banner = require('../mock/home/banner');
 var upload = require('../mock/home/upload');
@@ -78,6 +78,7 @@ apiRouter.get('/topic/chapterList', function (req, res) {
 
 
 app.use('/api', apiRouter);
+*/
 
 var compiler = webpack(webpackConfig);
 

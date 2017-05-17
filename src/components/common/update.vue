@@ -1,8 +1,8 @@
 <template>
-  <div class="upload-wrap">
+  <div class="update-wrap">
     <!--color="#696969" rippleOpacity="'0.3'"-->
     <div class="guess">猜你喜欢</div>
-    <div v-for="book in uploadData" class="book-list clearfix" @click="goDetail(book.id)">
+    <div v-for="book in updateData" class="book-list clearfix" @click="goDetail(book.id)">
       <a :href="book.shareUrl" class="link" @click.prevent="">
         <div class="avatar">
           <img v-lazy="book.images[0].imgUrl" width="104" height="80" class="icon">
@@ -18,8 +18,8 @@
         </div>
       </a>
     </div>
-    <mu-raised-button :label="progressShow?'正在努力加载中，请稍等...':'点击加载更多'" class="upload-btn"
-                      @click="upload" :rippleOpacity="0.2" fullWidth/>
+    <mu-raised-button :label="progressShow?'正在努力加载中，请稍等...':'点击加载更多'" class="update-btn"
+                      @click="update" :rippleOpacity="0.2" fullWidth/>
     <mu-linear-progress :size="8" v-if="progressShow" color="#d500f9"/>
   </div>
 </template>
@@ -30,7 +30,7 @@
   export default {
     data(){
       return {
-        uploadData: [],
+        updateData: [],
         progressShow: false //进度条显示状态
       }
     },
@@ -38,7 +38,7 @@
       ...mapState(['guessContent'])
     },
     methods: {
-      upload() {
+      update() {
         if (this.progressShow) { //防止多次次点击加载按钮
           console.log(this.progressShow);
           return;
@@ -46,7 +46,7 @@
         this.progressShow = true;
         this.$store.dispatch(types.UPLOAD_GUESS).then(() => {
           this.guessContent.list.forEach((item) => {
-            this.uploadData.push(item);
+            this.updateData.push(item);
           });
           this.progressShow = false;
         });
@@ -54,7 +54,7 @@
 //          if (res.data.status === ERRNO) {
 //            console.log(res.data);
 //            res.data.data.list.forEach((item) => {
-//              this.uploadData.push(item);
+//              this.updateData.push(item);
 //            });
 //          }
 //        });
@@ -67,7 +67,7 @@
     created() {
       this.$store.dispatch(types.UPLOAD_GUESS).then(() => {
         this.guessContent.list.forEach((item) => {
-          this.uploadData.push(item);
+          this.updateData.push(item);
         });
       });
     }
@@ -78,7 +78,7 @@
 <style lang="less" rel="stylesheet/less" scoped>
   @import "../../../static/less/index";
 
-  .upload-wrap {
+  .update-wrap {
     background-color: #fff;
     .guess {
       height: 26px;
@@ -166,7 +166,7 @@
     }
   }
 
-  .upload-btn {
+  .update-btn {
     height: 40px;
     border-radius: 6px;
   }

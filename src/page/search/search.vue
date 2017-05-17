@@ -5,9 +5,9 @@
       <input type="search" ref="search" class="search-input" placeholder="请输入搜索关键字">
       <span class="text" @click="search">搜索</span>
     </div>
-    <div class="upload-wrap">
+    <div class="update-wrap">
       <!--color="#696969" rippleOpacity="'0.3'"-->
-      <div v-for="book in uploadData" class="book-list clearfix" @click="goDetail(book.id)">
+      <div v-for="book in updateData" class="book-list clearfix" @click="goDetail(book.id)">
         <a :href="book.shareUrl" class="link" @click.prevent="">
           <div class="avatar">
             <img v-lazy="book.images[0].imgUrl" width="104" height="80" class="icon">
@@ -35,7 +35,7 @@
   export default {
     data() {
       return {
-        uploadData: [],
+        updateData: [],
         isErrorData: false
       }
     },
@@ -48,10 +48,10 @@
         api.searchApi(keyword).then((data) => {
           if (data.data.data.length === 0) {
             this.isErrorData = true;
-            this.uploadData = [];
+            this.updateData = [];
           } else {
             this.isErrorData = false;
-            this.uploadData = data.data.data;
+            this.updateData = data.data.data;
           }
         });
       },
@@ -92,7 +92,7 @@
         align-self: center;
       }
     }
-    .upload-wrap {
+    .update-wrap {
       background-color: #fff;
       padding: 0 14px;
       .guess {

@@ -22,13 +22,13 @@
         </li>
       </ul>
     </div>
-    <r-upload></r-upload>
+    <r-update></r-update>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   import * as types from '../../../store/mutationsTypes';
-  import upload from './../../../components/common/upload';
+  import update from './../../../components/common/update';
   import loading from './../../../components/common/loading';
   import api from '../../../api';
 
@@ -48,7 +48,7 @@
       }
     },
     components: {
-      'rUpload': upload,
+      'rUpdate': update,
       'rLoading': loading
     },
     computed: {
