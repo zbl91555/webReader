@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bbe343-3ccd-449c-8bfb-84f5fb2a6acb" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/书籍章节.png" afterPath="$PROJECT_DIR$/preview/书籍章节.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/书籍详情.png" afterPath="$PROJECT_DIR$/preview/书籍详情.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/书籍阅读.png" afterPath="$PROJECT_DIR$/preview/书籍阅读.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/搜索页.png" afterPath="$PROJECT_DIR$/preview/搜索页.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/收藏列表.png" afterPath="$PROJECT_DIR$/preview/收藏列表.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/登录注册.png" afterPath="$PROJECT_DIR$/preview/登录注册.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/设置.png" afterPath="$PROJECT_DIR$/preview/设置.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preview/首页.png" afterPath="$PROJECT_DIR$/preview/首页.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="webApp-reader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +65,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="411">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
@@ -656,12 +649,12 @@
       <workItem from="1494764690439" duration="7000" />
       <workItem from="1494765095209" duration="1191000" />
       <workItem from="1494853857786" duration="250000" />
-      <workItem from="1495011676156" duration="5349000" />
+      <workItem from="1495011676156" duration="5526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375627000" />
+    <option name="totallyTimeSpent" value="375804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
@@ -1014,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="411">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
