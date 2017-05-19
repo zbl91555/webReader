@@ -2,7 +2,7 @@
   <div class="search-container">
     <top-bar>搜索</top-bar>
     <div class="search-input-wrap">
-      <input type="search" ref="search" class="search-input" placeholder="请输入搜索关键字">
+      <input type="search" ref="search" class="search-input" placeholder="请输入搜索关键字" @keyup.enter="search">
       <span class="text" @click="search">搜索</span>
     </div>
     <div class="search-wrap">
