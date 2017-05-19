@@ -5,7 +5,7 @@
 
 ## 技术栈
 
-vue2 + vuex + vue-router + webpack + ES6 + axios + less + flex
+vue2 + vuex + vue-router + webpack + ES6 + axios + less
 
 ## 源代码
 源代码地址：[GitHub](https://github.com/zbl91555/webReader)
