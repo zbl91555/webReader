@@ -11,7 +11,7 @@
       <!--</div>-->
       <!--rippleColor="'#fff'" rippleOpacity="0.6"-->
       <!--rippleOpacity="0.6"-->
-      <mu-raised-button label="项目简介" color="#fff" class="download" :rippleOpacity="0.4"/>
+      <mu-raised-button label="项目简介" color="#fff" class="download" :rippleOpacity="0.4" @click="goAbout"/>
     </div>
     <keep-alive>
       <r-banner></r-banner>
@@ -47,6 +47,9 @@
     methods: {
       goSearch() {
         this.$router.push({name: 'search'});
+      },
+      goAbout() {
+        window.open('https://github.com/zbl91555/webReader/blob/master/README.md');
       }
     },
   }
