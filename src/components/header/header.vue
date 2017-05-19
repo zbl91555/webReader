@@ -18,19 +18,20 @@
     </keep-alive>
     <div class="category-container">
       <ul class="category-wrap">
-        <li class="item"><a href="javascript:void(0)" class="link"><span class="text"><span
-          class="icon"></span>分类</span></a></li>
-        <li class="item"><a href="javascript:void(0)" class="link"><span class="text"><span
+        <li class="item" @click="goCategories('category')"><a class="link"><span class="text"><span
+          class="icon"></span>分类</span></a>
+        </li>
+        <li class="item" @click="goCategories('vip')"><a href="javascript:void(0)" class="link"><span class="text"><span
           class="icon"></span>Vip文</span></a></li>
-        <li class="item"><a href="javascript:void(0)" class="link"><span class="text"><span
+        <li class="item" @click="goCategories('rank')"><a href="javascript:void(0)" class="link"><span class="text"><span
           class="icon"></span>排行</span></a></li>
       </ul>
       <ul class="category-wrap">
-        <li class="item"><a href="javascript:void(0)" class="link"><span class="text"><span
+        <li class="item" @click="goCategories('finished')"><a href="javascript:void(0)" class="link"><span class="text"><span
           class="icon"></span>完结</span></a></li>
-        <li class="item"><a href="javascript:void(0)" class="link"><span class="text"><span
+        <li class="item" @click="goCategories('booklist')"><a href="javascript:void(0)" class="link"><span class="text"><span
           class="icon"></span>书单</span></a></li>
-        <li class="item"><a href="javascript:void(0)" class="link"><span class="text"><span
+        <li class="item" @click="goCategories('last')"><a href="javascript:void(0)" class="link"><span class="text"><span
           class="icon"></span>最新</span></a></li>
       </ul>
     </div>
@@ -50,6 +51,9 @@
       },
       goAbout() {
         window.open('https://github.com/zbl91555/webReader/blob/master/README.md');
+      },
+      goCategories(page) {
+        this.$router.push({path: '/categories', query: {page}})
       }
     },
   }

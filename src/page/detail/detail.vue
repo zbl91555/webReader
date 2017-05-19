@@ -126,6 +126,9 @@
           case 'minutes' :
             return times[0] + '分钟前';
             break;
+          case 'day' :
+            return '1天前';
+            break;
           case 'days' :
             return times[0] + '天前';
             break;

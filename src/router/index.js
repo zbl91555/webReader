@@ -13,11 +13,18 @@ const personal = resolve => {require(['page/mine/children/personal'], resolve)};
 const register = resolve => {require(['page/mine/children/register'], resolve)};
 const forget = resolve => {require(['page/mine/children/forget'], resolve)};
 const reader = resolve => {require(['page/reader/reader'], resolve)};
+const categories = resolve => {require(['page/categories/categories'], resolve)};
+const category = resolve => {require(['page/categories/children/category'], resolve)};
+const booklist = resolve => {require(['page/categories/children/booklist'], resolve)};
+const finished = resolve => {require(['page/categories/children/finished'], resolve)};
+const last = resolve => {require(['page/categories/children/last'], resolve)};
+const rank = resolve => {require(['page/categories/children/rank'], resolve)};
+const vip = resolve => {require(['page/categories/children/vip'], resolve)};
 
 Router.prototype.goBack = function () {
-  this.isBack = true
-  this.go(-1)
-} //返回上一步
+  this.isBack = true;
+  this.go(-1);
+};//返回上一步
 
 Vue.use(Router);
 
@@ -83,6 +90,41 @@ export default new Router({
     {
       path: '/reader',
       component: reader
+    },
+    {
+      path: '/categories',
+      component: categories,
+      children: [
+        {
+        path: 'category',
+        name: 'category',
+        component: category
+        },
+        {
+          path: 'booklist',
+          name: 'booklist',
+          component: booklist
+        },
+        {
+          path: 'finished',
+          name: 'finished',
+          component: finished
+        },
+        {
+          path: 'last',
+          name: 'last',
+          component: last
+        },
+        {
+          path: 'rank',
+          name: 'rank',
+          component: rank
+        },
+        {
+          path: 'vip',
+          name: 'vip',
+          component: vip
+        }]
     }
   ]
 })

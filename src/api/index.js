@@ -57,5 +57,29 @@ export default {
   searchApi(keyword) {
     //搜索内容 数据获取
     return axios.get(`https://api.doufu.la/index.php/search/content?types=18&keyword=${keyword}&size=20&start=0&${postfix}`)
-  }
+  },
+  categoryApi() {
+    //分类页面数据获取
+    return axios.get(`https://api.doufu.la/index.php/entrance_item/novel_category?begin=0&last=&lastStart=0&rows=0&sex=1&size=20&start=0&${postfix}`);
+  },
+  vipApi() {
+    //分类页面数据获取
+    return axios.get(`https://api.doufu.la/index.php/albums/items?id=1316&last=&size=20&tf_webapp=1&${postfix}`);
+  },
+  lastApi() {
+    //最新页面数据获取
+    return axios.get(`https://api.doufu.la/index.php/topics/latestNovels?last=&size=20&tf_webapp=1&${postfix}`);
+  },
+  bookListApi() {
+    //最新页面数据获取
+    return axios.get(`https://api.doufu.la/index.php/albums/items?id=1659&last=&size=20&${postfix}`);
+  },
+  finishedApi() {
+    //最新页面数据获取
+    return axios.get(`https://api.doufu.la/index.php/post/topics?type=18&finished=1&last=&size=20&last=&size=20&${postfix}`);
+  },
+  rankApi() {
+    //最新页面数据获取
+    return axios.get(`https://api.doufu.la/index.php/albums/items?id=1375&begin=0&last=&lastStart=0&rows=0&size=20&start=0&${postfix}`);
+  },
 }

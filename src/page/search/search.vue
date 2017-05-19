@@ -5,7 +5,7 @@
       <input type="search" ref="search" class="search-input" placeholder="请输入搜索关键字">
       <span class="text" @click="search">搜索</span>
     </div>
-    <div class="update-wrap">
+    <div class="search-wrap">
       <!--color="#696969" rippleOpacity="'0.3'"-->
       <div v-for="book in updateData" class="book-list clearfix" @click="goDetail(book.id)">
         <a :href="book.shareUrl" class="link" @click.prevent="">
@@ -92,7 +92,7 @@
         align-self: center;
       }
     }
-    .update-wrap {
+    .search-wrap {
       background-color: #fff;
       padding: 0 14px;
       .guess {
