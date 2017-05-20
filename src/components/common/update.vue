@@ -6,7 +6,7 @@
       <a :href="book.shareUrl" class="link" @click.prevent="">
         <div class="avatar">
           <img v-lazy="book.images[0].imgUrl" width="104" height="80" class="icon">
-          <span class="vip" v-if="book.is_vip === 1"></span>
+          <span class="vip" v-if="book.is_vip == 1"></span>
         </div>
         <div class="desc">
           <h2 class="name">{{book.title}}</h2>
@@ -40,7 +40,6 @@
     methods: {
       update() {
         if (this.progressShow) { //防止多次次点击加载按钮
-          console.log(this.progressShow);
           return;
         }
         this.progressShow = true;
@@ -66,7 +65,6 @@
     },
     created() {
       this.$store.dispatch(types.UPLOAD_GUESS).then(() => {
-        console.log(this.guessContent.list)
         this.guessContent.list.forEach((item) => {
           this.updateData.push(item);
         });
