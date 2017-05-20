@@ -7,7 +7,7 @@ export default {
     return axios.get(`https://api.doufu.la/index.php/banner/get?place=home.novel&${postfix}`);
   },
   contentApi() {
-    //content 数据获取
+    // banner 数据获取
     return axios.get(`https://api.doufu.la/index.php/topics/novel_entrance?${postfix}`);
   },
   guessApi(last) {
@@ -63,7 +63,7 @@ export default {
     return axios.get(`https://api.doufu.la/index.php/entrance_item/novel_category?begin=0&last=&lastStart=0&rows=0&sex=1&size=20&start=0&${postfix}`);
   },
   vipApi() {
-    //分类页面数据获取
+    //vip页面数据获取
     return axios.get(`https://api.doufu.la/index.php/albums/items?id=1316&last=&size=20&tf_webapp=1&${postfix}`);
   },
   lastApi() {
@@ -71,15 +71,15 @@ export default {
     return axios.get(`https://api.doufu.la/index.php/topics/latestNovels?last=&size=20&tf_webapp=1&${postfix}`);
   },
   bookListApi() {
-    //最新页面数据获取
+    //书单页面数据获取
     return axios.get(`https://api.doufu.la/index.php/albums/items?id=1659&last=&size=20&${postfix}`);
   },
   finishedApi() {
-    //最新页面数据获取
+    //完结页面数据获取
     return axios.get(`https://api.doufu.la/index.php/post/topics?type=18&finished=1&last=&size=20&last=&size=20&${postfix}`);
   },
   rankApi() {
-    //最新页面数据获取
+    //排行页面数据获取
     return axios.get(`https://api.doufu.la/index.php/albums/items?id=1375&begin=0&last=&lastStart=0&rows=0&size=20&start=0&${postfix}`);
   },
 }
