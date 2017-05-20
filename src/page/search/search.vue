@@ -52,7 +52,6 @@
           } else {
             this.isErrorData = false;
             this.updateData = data.data.data;
-            console.log(data.data.data)
           }
         });
       },
