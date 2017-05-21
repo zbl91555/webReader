@@ -96,9 +96,9 @@ export default new Router({
       component: categories,
       children: [
         {
-        path: 'category',
-        name: 'category',
-        component: category
+          path: 'category',
+          name: 'category',
+          component: category
         },
         {
           path: 'booklist',
