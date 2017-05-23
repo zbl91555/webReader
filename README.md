@@ -11,7 +11,7 @@ vue2 + vuex + vue-router + webpack + ES6 + axios + less
 源代码地址：[GitHub](https://github.com/zbl91555/webReader)
 
 ### 在线预览
-在线预览地址： [webapp-reader](http://120.25.254.139/#/home/content) (PC端请在浏览器的移动端模式下查看)
+在线预览地址： [webapp-reader](http://www.bbean.top) (PC端请在浏览器的移动端模式下查看)
 
 ### 移动端（手机）演示
 ![QR code](https://github.com/zbl91555/webReader/blob/master/QR%20code.png)
