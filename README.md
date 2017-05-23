@@ -14,7 +14,7 @@ vue2 + vuex + vue-router + webpack + ES6 + axios + less
 在线预览地址： [webapp-reader](http://www.bbean.top) (PC端请在浏览器的移动端模式下查看)
 
 ### 移动端（手机）演示
-![QR code](https://github.com/zbl91555/webReader/blob/master/QR%20code.png)
+![QR code](https://github.com/zbl91555/webReader/blob/master/QRcode.png)
 
 ### 预览图
 ![首页](https://github.com/zbl91555/webReader/blob/master/preview/%E9%A6%96%E9%A1%B5.png)
