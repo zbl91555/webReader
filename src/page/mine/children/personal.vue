@@ -8,8 +8,6 @@
       <h3 class="name">{{userInfo.nickname}}</h3>
       <div class="changeUser"><span class="btn" @click="changeUser">切换账号</span></div>
     </div>
-    <div class="background-image"><img src="../../../../static/img/personal.gif" width="100%"
-                                       height="100%"></div>
   </div>
 </template>
 
@@ -70,13 +68,5 @@
     }
   }
 
-  .background-image {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    margin-left: -100px;
-    width: 200px;
-    height: 150px;
-  }
 
 </style>
