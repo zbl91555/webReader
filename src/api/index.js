@@ -62,6 +62,10 @@ export default {
     //分类页面数据获取
     return axios.get(`https://api.doufu.la/index.php/entrance_item/novel_category?begin=0&last=&lastStart=0&rows=0&sex=1&size=20&start=0&${postfix}`);
   },
+    //详细分类数据
+  detailCategoryApi(keyword) {
+    return axios.get(`https://api.doufu.la/index.php/search/single?keyword=${keyword}&types=18&smart_filter=1&last=&size=20&${postfix}`);
+  },
   vipApi() {
     //vip页面数据获取
     return axios.get(`https://api.doufu.la/index.php/albums/items?id=1316&last=&size=20&tf_webapp=1&${postfix}`);
