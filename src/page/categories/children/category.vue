@@ -10,6 +10,7 @@
 
 <script type="text/ecmascript-6">
   import api from '../../../api';
+  import * as types from '../../../store/mutationsTypes';
   export default {
     data() {
       return {
@@ -24,7 +25,12 @@
     methods: {
       goDetailCategory(index) {
         let keyword = this.list[index].title;
-        index === 0 ? this.$router.push({name: 'last'}) : this.$router.push({name: 'detailCategory', params: {keyword}})
+        if (index === 0) {
+          this.$router.push({name: 'last'})
+          this.$store.commit(types.CHANGE_TOP_STATE, keyword);
+        } else {
+          this.$router.push({name: 'detailCategory', params: {keyword}})
+        }
       }
     }
   }
