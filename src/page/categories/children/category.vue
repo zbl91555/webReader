@@ -27,10 +27,13 @@
         let keyword = this.list[index].title;
         if (index === 0) {
           this.$router.push({name: 'last'})
-          this.$store.commit(types.CHANGE_TOP_STATE, keyword);
-        } else {
+        } else if (keyword === '签约') {
+          this.$router.push({name: 'vip'})
+        }
+        else {
           this.$router.push({name: 'detailCategory', params: {keyword}})
         }
+        this.$store.commit(types.CHANGE_TOP_STATE, keyword);
       }
     }
   }

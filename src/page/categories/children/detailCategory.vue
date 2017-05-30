@@ -40,11 +40,10 @@
       api.detailCategoryApi(keyWord).then((data) => {
         this.updateData = data.data.data.list;
       });
-      this.$store.commit(types.CHANGE_TOP_STATE, keyWord);
     },
     methods: {
       goDetail(bookId) {
-        this.$router.push({path: '/detail', params: {bookId}});
+        this.$router.replace({path: '/detail', params: {bookId}});
         this.$store.commit(types.SET_BOOK_ID, bookId);
       }
     }

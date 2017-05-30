@@ -1,6 +1,8 @@
 <template>
   <div class="categories-container">
-    <top-bar>{{this.topTitle}}</top-bar>
+    <keep-alive>
+      <top-bar>{{this.topTitle}}</top-bar>
+    </keep-alive>
     <router-view></router-view>
   </div>
 </template>
