@@ -24,8 +24,8 @@
 
 <script type="text/ecmascript-6">
   import * as types from '../../../store/mutationsTypes';
-  import topBar from '../../../components/common/topBar'
-  import api from '../../../api'
+  import topBar from '../../../components/common/topBar';
+  import api from '../../../api';
   export default {
     data() {
       return {
@@ -36,9 +36,11 @@
       topBar
     },
     created() {
-      api.detailCategoryApi(this.$router.params.keyword).then((data) => {
-        this.updateData = data.data.data.items;
+      let keyWord = this.$route.params.keyword;
+      api.detailCategoryApi(keyWord).then((data) => {
+        this.updateData = data.data.data.list;
       });
+      this.$store.commit(types.CHANGE_TOP_STATE, keyWord);
     },
     methods: {
       goDetail(bookId) {

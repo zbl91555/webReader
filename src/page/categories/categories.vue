@@ -1,20 +1,21 @@
 <template>
   <div class="categories-container">
-    <top-bar>{{pageName}}</top-bar>
+    <top-bar>{{this.topTitle}}</top-bar>
     <router-view></router-view>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
-  import topBar from '../../components/common/topBar'
+  import topBar from '../../components/common/topBar';
+  import * as types from '../../store/mutationsTypes';
+  import {mapState} from 'vuex';
+
   export default {
-    data() {
-      return {
-        pageName: ''
-      }
-    },
     components: {
       topBar
+    },
+    computed: {
+      ...mapState(['topTitle'])
     },
     created() {
       let page = this.$route.query.page;
@@ -39,7 +40,7 @@
           pageName = '最新';
           break;
       }
-      this.pageName = pageName;
+      this.$store.commit(types.CHANGE_TOP_STATE, pageName);
       this.$router.replace({name: page});
     }
   }

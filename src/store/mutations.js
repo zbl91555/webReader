@@ -58,5 +58,8 @@ export default {
       state.guideInfo.GuideHref = payload.GuideHref;
       state.guideInfo.isShowGuide = payload.isShowGuide;
     }
+  },
+  [types.CHANGE_TOP_STATE](state, payload) {
+    state.topTitle = payload;
   }
 }

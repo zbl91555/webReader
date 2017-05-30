@@ -23,8 +23,8 @@
     },
     methods: {
       goDetailCategory(index) {
-//        console.log(this.list[index].title);
-        this.$router.push({name: 'detailCategory', params: {keyword: this.list[index].title}})
+        let keyword = this.list[index].title;
+        index === 0 ? this.$router.push({name: 'last'}) : this.$router.push({name: 'detailCategory', params: {keyword}})
       }
     }
   }

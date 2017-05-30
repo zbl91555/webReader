@@ -23,6 +23,7 @@ const state = {
   isKeyboardPopup: false, //键盘状态
   isFirstLoadFav: true, //是有第一次加载猜你喜欢列表
   guideInfo: {isShowGuide: true, GuideHref: 'login'},//显示引导页内容信息
+  topTitle : '' //topBar组件值
 }
 
 //导出vuex实例化对象

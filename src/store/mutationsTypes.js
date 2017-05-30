@@ -34,3 +34,6 @@ export const CHANGE_FAVORITE_LIST = 'CHANGE_FAVORITE_LIST';
 //变更引导页状态
 export const CHANGE_GUIDE_STATE = 'CHANGE_GUIDE_STATE';
 
+//变更top组件值
+export const CHANGE_TOP_STATE = 'CHANGE_TOP_STATE';
+
