@@ -114,7 +114,7 @@
         contentHeight: 0, //内容高度
         refreshLock: false, //刷新锁
         popup: false,
-        autoPageStatus: false, //自动翻页开关
+        autoPageStatus: true, //自动翻页开关
         styleIndex: 2,
         fontSizeIndex: 2
       }

@@ -85,5 +85,5 @@ export default {
   rankApi() {
     //排行页面数据获取
     return axios.get(`https://api.doufu.la/index.php/albums/items?id=1375&begin=0&last=&lastStart=0&rows=0&size=20&start=0&${postfix}`);
-  },
+  }
 }
