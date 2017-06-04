@@ -3,8 +3,8 @@
     <div class="about-more">
       <div class="icon"><img src="../../../static/img/Icon.png" alt="webApp" width="50" height="50"></div>
       <div class="text">
-        <h1 class="title">WebApp书城</h1>
-        <p class="desc">一个有内涵的毕设☺</p>
+        <h1 class="title">豆子书城</h1>
+        <p class="desc">一个有内涵的书城☺</p>
       </div>
       <!--<div class="download">-->
       <!--<a class="mine" href="#">项目简介</a>-->
