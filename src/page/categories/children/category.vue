@@ -1,11 +1,11 @@
 <template>
-  <div class="category-container">
-    <div class="category" v-for="(item,index) in list" @click="goDetailCategory(index)">
+  <section class="category-container">
+    <section class="category" v-for="(item,index) in list" @click="goDetailCategory(index)">
       <img :src="item.imgUrl" :alt="item.title" width="110" height="110">
       <h3 class="title">{{item.title}}</h3>
       <p class="num" v-if="item.num != 0">{{item.num}}部作品</p>
-    </div>
-  </div>
+    </section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

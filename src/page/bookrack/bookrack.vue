@@ -1,7 +1,7 @@
 <template>
-  <div class="bookrack-container">
+  <section class="bookrack-container">
     <top-bar :hasBackBtn="false">我的收藏</top-bar>
-    <div class="bookrack-wrap">
+    <section class="bookrack-wrap">
       <mu-list>
         <mu-list-item :title="book.title" v-for="book in favoriteList" class="book">
           <mu-avatar :src="book.images[0].imgUrl" slot="leftAvatar" @click="goDetail(book.id)"/>
@@ -15,16 +15,16 @@
           </mu-icon-menu>
         </mu-list-item>
       </mu-list>
-    </div>
+    </section>
     <keep-alive>
       <r-footer></r-footer>
     </keep-alive>
     <mu-raised-button label="刷 新" class="demo-raised-button refresh" @click="refreshFavList" v-if="isLogin"/>
-    <div class="guide" v-if="!isLogin">
-      <div class="goLogin" @click="goLogin">手机号登录</div>
-      <div class="goRegister" @click="goRegister">手机号注册</div>
-    </div>
-  </div>
+    <section class="guide" v-if="!isLogin">
+      <section class="goLogin" @click="goLogin">手机号登录</section>
+      <section class="goRegister" @click="goRegister">手机号注册</section>
+    </section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

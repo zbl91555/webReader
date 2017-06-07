@@ -1,20 +1,20 @@
 <template>
-  <div class="detail-wrap">
+  <section class="detail-wrap">
     <r-loading v-if="isLoading"></r-loading>
-    <div class="backUp-wrap" @click="goBack">
-      <div class="backUp"><span class="icon"></span></div>
-    </div>
-    <div class="footer-container">
-      <div class="footer-wrap">
+    <section class="backUp-wrap" @click="goBack">
+      <section class="backUp"><span class="icon"></span></section>
+    </section>
+    <section class="footer-container">
+      <section class="footer-wrap">
         <!--@click="changeFav(detailData)"-->
-        <div class="collect" @click="changeFav(detailData.id)">
+        <section class="collect" @click="changeFav(detailData.id)">
           <span class="icon" :class="{'selected':has_fav}"></span>
           <span class="text"><span ref="text">收藏</span> <strong class="collect-times"> {{collect_times}}</strong></span>
-        </div>
+        </section>
         <mu-raised-button label="进入阅读" color="#fff" class="demo-raised-button in-reading" @click="goToReader"/>
-      </div>
-    </div>
-    <div class="header-container" v-if="detailData.images">
+      </section>
+    </section>
+    <section class="header-container" v-if="detailData.images">
       <img :src="detailData.images[0].imgUrl" width="100%" height="100%">
       <ul class="header-wrap">
         <li class="title">
@@ -32,29 +32,29 @@
           </ul>
         </li>
       </ul>
-    </div>
-    <div class="content-container">
+    </section>
+    <section class="content-container">
       <ul class="catalog-container">
         <li class="text">目录</li>
         <li class="catalog-wrap" @click="openCatelog">连载至{{detailData.article_num}}章&nbsp;&nbsp;最近更新：{{transDate}}&nbsp;&nbsp;&nbsp;&gt;</li>
       </ul>
-      <div class="content-wrap">
+      <section class="content-wrap">
         <p class="info">简介</p>
         <p class="desc">{{detailData.des}}</p>
-      </div>
-      <div class="author-contain" v-if="detailData.user">
-        <div class="avatar">
+      </section>
+      <section class="author-contain" v-if="detailData.user">
+        <section class="avatar">
           <img :src="detailData.user.icon" height="60" width="60" class="icon">
           <span class="logo"></span>
-        </div>
-        <div class="desc-wrap">
+        </section>
+        <section class="desc-wrap">
           <p class="name">{{detailData.author}}</p>
           <p class="desc">{{detailData.user.signature}}</p>
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </section>
     <r-back></r-back>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

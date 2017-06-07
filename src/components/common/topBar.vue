@@ -1,10 +1,10 @@
 <template>
-  <div class="topBar-container">
-    <div class="icon" @click="goLastStep" v-if="hasBackBtn"></div>
-    <div class="text">
+  <section class="topBar-container">
+    <section class="icon" @click="goLastStep" v-if="hasBackBtn"></section>
+    <section class="text">
       <slot></slot>
-    </div>
-  </div>
+    </section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

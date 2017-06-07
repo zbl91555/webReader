@@ -1,10 +1,10 @@
 <template>
-  <div class="categories-container">
+  <section class="categories-container">
     <keep-alive>
       <top-bar>{{this.topTitle}}</top-bar>
     </keep-alive>
     <router-view></router-view>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

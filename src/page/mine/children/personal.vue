@@ -1,14 +1,14 @@
 <template>
-  <div class="personal-container">
+  <section class="personal-container">
     <top-bar :hasBackBtn="false">个人中心</top-bar>
-    <div class="personal-wrap" v-if="">
-      <div class="avatar">
+    <section class="personal-wrap" v-if="">
+      <section class="avatar">
         <img :src="userInfo.head_image" class="icon" width="80" height="80">
-      </div>
+      </section>
       <h3 class="name">{{userInfo.nickname}}</h3>
-      <div class="changeUser"><span class="btn" @click="changeUser">切换账号</span></div>
-    </div>
-  </div>
+      <section class="changeUser"><span class="btn" @click="changeUser">切换账号</span></section>
+    </section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

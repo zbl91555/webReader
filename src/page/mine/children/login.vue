@@ -1,23 +1,23 @@
 <template>
-  <div class="login-container">
+  <section class="login-container">
     <top-bar>登录</top-bar>
-    <div class="login-wrap">
-      <div class="phoneNumber-wrap">
+    <section class="login-wrap">
+      <section class="phoneNumber-wrap">
         <input type="text" class="phoneNumber" ref="phoneNumber" placeholder="请输入手机号" @focus="popup">
-      </div>
-      <div class="border-1px"></div>
-      <div class="password-wrap">
+      </section>
+      <section class="border-1px"></section>
+      <section class="password-wrap">
         <input type="password" class="password" ref="password" placeholder="请输入密码" @focus="popup">
-      </div>
+      </section>
       <mu-raised-button label="登   录" class="login-btn"
                         @click="login" :rippleOpacity="0.2"/>
-      <div class="link"><span class="register" @click="goRegister">注册</span><span class="forgot"
-                                                                                  @click="goForget">忘记密码</span></div>
-    </div>
-    <div class="background-image" v-show="!isKeyboardPopup"><img src="../../../../static/img/person_bg.png" width="100%"
-                                                                 height="100%"></div>
+      <section class="link"><span class="register" @click="goRegister">注册</span><span class="forgot"
+                                                                                  @click="goForget">忘记密码</span></section>
+    </section>
+    <section class="background-image" v-show="!isKeyboardPopup"><img src="../../../../static/img/person_bg.png" width="100%"
+                                                                 height="100%"></section>
     <mu-toast v-show="toast" :message="message" @close="hideToast" class="toast"/>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

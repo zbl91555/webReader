@@ -1,15 +1,15 @@
 <template>
-  <div class="catelog-container">
-    <div class="header">
-      <div class="back-icon" @click="goBack"></div>
-      <div class="totalChapters">共{{chapterListLength}}章</div>
-      <div class="sort-wrap" :class="{'reverse':!isReverseList}" @click="reverseChapterList">
+  <section class="catelog-container">
+    <section class="header">
+      <section class="back-icon" @click="goBack"></section>
+      <section class="totalChapters">共{{chapterListLength}}章</section>
+      <section class="sort-wrap" :class="{'reverse':!isReverseList}" @click="reverseChapterList">
         <span class="icon"></span>
         <span class="text" v-if="!isReverseList">正序</span>
         <span class="text" v-if="isReverseList">倒序</span>
-      </div>
-    </div>
-    <div class="catelog-container">
+      </section>
+    </section>
+    <section class="catelog-container">
       <ul ref="list">
         <li class="chapter" v-for="(item,index) in chapterList" @click="goToReader(index)">
           <span class="title"><span class="text">{{item.title}}</span> <i v-if="item.vip === '1'" class="lock-icon"></i></span>
@@ -17,9 +17,9 @@
           <span class="border-1px"></span>
         </li>
       </ul>
-    </div>
+    </section>
     <r-back></r-back>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

@@ -1,33 +1,29 @@
 <template>
-  <div class="register-container">
+  <section class="register-container">
     <top-bar>注册</top-bar>
-    <div class="register-wrap">
-      <div class="phoneNumber-wrap">
+    <section class="register-wrap">
+      <section class="phoneNumber-wrap">
         <input type="text" class="phoneNumber" ref="phoneNumber" placeholder="请输入手机号" @focus="popup"
                pattern="\^1[3|4|5|8][0-9]/d{4,8}$\"
                required="required">
-      </div>
-      <div class="border-1px"></div>
-      <div class="password-wrap">
-        <input type="password" class="password" ref="password" placeholder="密码至少六个字符，可以使用数字字母" @focus="popup"
-               required="required">
-      </div>
-      <div class=" border-1px">
-      </div>
-      <div class="confirm-password-wrap">
+      </section>
+      <section class="border-1px"></section>
+      <section class="password-wrap">
+        <input type="password" class="password" ref="password" placeholder="密码至少六个字符，可以使用数字字母" @focus="popup" required="required">
+      </section>
+      <section class=" border-1px"></section>
+      <section class="confirm-password-wrap">
         <input type="password" class="confirm-password" placeholder="确认密码" @focus="popup" required="required">
-      </div>
-      <div class="border-1px"></div>
-      <div class="captcha-wrap">
+      </section>
+      <section class="border-1px"></section>
+      <section class="captcha-wrap">
         <input type="text" class="captcha" placeholder="请输入验证码" @focus="popup">
-        <mu-raised-button label="获取验证码" class="captcha-btn" @click="getCaptcha" :rippleOpacity="0.2" @focus="popup"
-                          @blur="popdown"/>
-      </div>
+        <mu-raised-button label="获取验证码" class="captcha-btn" @click="getCaptcha" :rippleOpacity="0.2" @focus="popup" @blur="popdown"/>
+      </section>
       <mu-raised-button label="注   册" class="reg-btn" @click="register" :rippleOpacity="0.2"/>
-      <div class="background-image" v-show="!isKeyboardPopup"><img src="../../../../static/img/person_bg.png"
-                                                                   width="100%" height="100%"></div>
-    </div>
-  </div>
+      <section class="background-image" v-show="!isKeyboardPopup"><img src="../../../../static/img/person_bg.png" width="100%" height="100%"></section>
+    </section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

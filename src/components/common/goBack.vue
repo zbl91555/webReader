@@ -1,7 +1,7 @@
 <template>
-  <div class="container" @click="goBack">
-    <div class="icon"></div>
-  </div>
+  <section class="container" @click="goBack">
+    <section class="icon"></section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

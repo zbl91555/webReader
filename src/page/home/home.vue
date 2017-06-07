@@ -1,12 +1,12 @@
 <template>
-  <div class="home-container">
+  <section class="home-container">
     <!--<r-loading v-if="isLoading" @loadinghidden="show"></r-loading>-->
     <r-header></r-header>
     <router-view></router-view>
     <keep-alive>
       <r-footer></r-footer>
     </keep-alive>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

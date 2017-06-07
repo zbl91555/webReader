@@ -1,29 +1,29 @@
 <template>
-  <div class="content-wrap">
+  <section class="content-wrap">
     <r-loading v-if="isLoading"></r-loading>
-    <div class="content" v-for="item in totalData">
+    <section class="content" v-for="item in totalData">
       <h2 class="title">{{item.title}}</h2>
       <ul>
         <li v-for="book in item.list" class="book-list" @click="goDetail(book.id)">
           <a class="link">  <!--:href="book.shareUrl" @click.prevent=""-->
-            <div class="avatar">
+            <section class="avatar">
               <img v-lazy="book.images[0].imgUrl" width="104" height="80" class="icon">
               <span class="vip" v-if="item.title==='VIP文推荐' || item.title==='VIP文畅销榜'"></span>
-            </div>
-            <div class="desc">
+            </section>
+            <section class="desc">
               <h2 class="name">{{book.title}}</h2>
               <p class="des">{{book.des}}</p>
               <div class="info"><span class="author"><img v-lazy="book.user.icon" class="icon" width="13" height="13">{{book.user.name}}</span>
                 <span class="tag" v-if="book.tags[0]">{{book.tags[0].name}}</span>
                 <span class="tag" v-if="book.tags[1]">{{book.tags[1].name}}</span>
               </div>
-            </div>
+            </section>
           </a>
         </li>
       </ul>
-    </div>
+    </section>
     <r-update></r-update>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

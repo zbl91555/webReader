@@ -16,7 +16,7 @@
     <keep-alive>
       <r-banner></r-banner>
     </keep-alive>
-    <div class="category-container">
+    <section class="category-container">
       <ul class="category-wrap">
         <li class="item" @click="goCategories('category')"><a class="link"><span class="text"><span
           class="icon"></span>分类</span></a>
@@ -34,7 +34,7 @@
         <li class="item" @click="goCategories('last')"><a href="javascript:void(0)" class="link"><span class="text"><span
           class="icon"></span>最新</span></a></li>
       </ul>
-    </div>
+    </section>
     <div class="search-icon" @click="goSearch"></div>
   </header>
 </template>

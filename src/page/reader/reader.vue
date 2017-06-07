@@ -2,23 +2,23 @@
   <div class="reader-container">
     <r-loading v-if="isLoading"></r-loading>
     <transition name="topBar">
-      <div class="header" v-show="isButtonShow">
+      <section class="header" v-show="isButtonShow">
         <span class="back-icon" @click="goBack"></span>
-        <div class="catelog-icon" @click="isCatelogShow = !isCatelogShow">
+        <section class="catelog-icon" @click="isCatelogShow = !isCatelogShow">
           ...
-          <div class="popup-container" v-show="isCatelogShow">
-            <div class="book-content" v-if="topic.images">
+          <section class="popup-container" v-show="isCatelogShow">
+            <section class="book-content" v-if="topic.images">
               <img :src="topic.images[0].imgUrl" width="54" height="72" class="icon">
               <h3 class="book-title">{{topic.title}}</h3>
               <p class="book-author">{{topic.user.name}}</p>
-            </div>
-            <div class="book-btn">
+            </section>
+            <section class="book-btn">
               <span class="catelog" @click="goToCatelog">目录</span>
               <span class="set" @click="openPopup">设置</span>
-            </div>
-          </div>
-        </div>
-      </div>
+            </section>
+          </section>
+        </section>
+      </section>
     </transition>
     <div class="reader-content" ref="readerContent">
       <div class="content-wrap" ref="content">

@@ -1,5 +1,5 @@
 <template>
-  <div class="mine-container">
+  <section class="mine-container">
     <!--<top-bar :hasBackBtn="false" v-if="guideInfo.isShowGuide">个人中心</top-bar>-->
     <router-view></router-view>
     <!--<div class="guide" v-if="guideInfo.isShowGuide">-->
@@ -10,7 +10,7 @@
       <!--v-show="!isKeyboardPopup"-->
       <r-footer></r-footer>
     </keep-alive>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

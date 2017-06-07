@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <section id="app">
     <!--<transition :name="transitionName">-->
     <router-view class="view"></router-view>
     <!--</transition>-->
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

@@ -1,14 +1,14 @@
 <template>
-  <div class="banner-container swiper-container">
-    <div class="banner-list swiper-wrapper">
-      <div v-for="item in bannerList" class="swiper-slide">
+  <section class="banner-container swiper-container">
+    <section class="banner-list swiper-wrapper">
+      <section v-for="item in bannerList" class="swiper-slide">
         <a @click="goDetail(item.id)">
           <img :src="item.images[0].imgUrl" height="100%" width="100%">
         </a>
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
+      </section>
+    </section>
+    <section class="swiper-pagination"></section>
+  </section>
 
 </template>
 

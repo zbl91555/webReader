@@ -1,18 +1,18 @@
 <template>
-  <div class="forget-container">
+  <section class="forget-container">
     <top-bar>忘记密码</top-bar>
-    <div class="forget-wrap">
-      <div class="phoneNumber-wrap">
+    <section class="forget-wrap">
+      <section class="phoneNumber-wrap">
         <input type="text" ref="phoneNumber" class="phoneNumber" placeholder="请输入手机号" @focus="popup"
                @blur="popdown">
-      </div>
+      </section>
       <mu-raised-button label="确   定" class="reset-btn"
                         @click="reset" :rippleOpacity="0.2"/>
-    </div>
-    <div class="background-image" v-show="!isKeyboardPopup"><img src="../../../../static/img/person_bg.png" width="100%"
-                                                                 height="100%"></div>
+    </section>
+    <section class="background-image" v-show="!isKeyboardPopup"><img src="../../../../static/img/person_bg.png" width="100%"
+                                                                 height="100%"></section>
     <mu-toast v-show="toast" :message="message" @close="hideToast" class="toast"/>
-  </div>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">

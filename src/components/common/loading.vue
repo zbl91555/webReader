@@ -1,12 +1,12 @@
 <template>
-  <div class="mask">
-    <div id="loading_container">
+  <section class="mask">
+    <section id="loading_container">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
-    </div>
-  </div>
+    </section>
+  </section>
 </template>
 
 <script type="text/ecmascript-6">
