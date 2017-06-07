@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bbe343-3ccd-449c-8bfb-84f5fb2a6acb" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/goBack.vue" afterPath="$PROJECT_DIR$/src/components/common/goBack.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/loading.vue" afterPath="$PROJECT_DIR$/src/components/common/loading.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/topBar.vue" afterPath="$PROJECT_DIR$/src/components/common/topBar.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/update.vue" afterPath="$PROJECT_DIR$/src/components/common/update.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/banner/banner.vue" afterPath="$PROJECT_DIR$/src/components/header/banner/banner.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.vue" afterPath="$PROJECT_DIR$/src/components/header/header.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/reader/top.vue" afterPath="$PROJECT_DIR$/src/components/reader/top.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/bookrack/bookrack.vue" afterPath="$PROJECT_DIR$/src/page/bookrack/bookrack.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/categories.vue" afterPath="$PROJECT_DIR$/src/page/categories/categories.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/booklist.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/booklist.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/category.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/category.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/detailCategory.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/detailCategory.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/finished.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/finished.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/last.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/last.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/rank.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/rank.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/categories/children/vip.vue" afterPath="$PROJECT_DIR$/src/page/categories/children/vip.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/catelog/catelog.vue" afterPath="$PROJECT_DIR$/src/page/catelog/catelog.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/detail/detail.vue" afterPath="$PROJECT_DIR$/src/page/detail/detail.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/home/children/content.vue" afterPath="$PROJECT_DIR$/src/page/home/children/content.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/home/home.vue" afterPath="$PROJECT_DIR$/src/page/home/home.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/mine/children/forget.vue" afterPath="$PROJECT_DIR$/src/page/mine/children/forget.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/mine/children/login.vue" afterPath="$PROJECT_DIR$/src/page/mine/children/login.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/mine/children/personal.vue" afterPath="$PROJECT_DIR$/src/page/mine/children/personal.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/mine/children/register.vue" afterPath="$PROJECT_DIR$/src/page/mine/children/register.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/mine/mine.vue" afterPath="$PROJECT_DIR$/src/page/mine/mine.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/reader/reader.vue" afterPath="$PROJECT_DIR$/src/page/reader/reader.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/search/search.vue" afterPath="$PROJECT_DIR$/src/page/search/search.vue" />
     </list>
     <ignored path="webApp-reader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bookrack.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/bookrack/bookrack.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="goBack.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/goBack.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reader.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reader.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/reader/reader.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="203" column="36" selection-start-line="203" selection-start-column="36" selection-end-line="203" selection-end-column="36" />
+            <state relative-caret-position="174">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/page/detail/detail.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -201,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/page/search/search.vue" />
         <option value="$PROJECT_DIR$/src/page/home/home.vue" />
         <option value="$PROJECT_DIR$/src/page/home/children/content.vue" />
-        <option value="$PROJECT_DIR$/src/page/detail/detail.vue" />
         <option value="$PROJECT_DIR$/src/page/catelog/catelog.vue" />
         <option value="$PROJECT_DIR$/src/page/categories/children/booklist.vue" />
         <option value="$PROJECT_DIR$/src/page/categories/children/category.vue" />
@@ -219,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/components/header/banner/banner.vue" />
         <option value="$PROJECT_DIR$/src/components/reader/top.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/page/detail/detail.vue" />
       </list>
     </option>
   </component>
@@ -412,6 +384,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webApp-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webApp-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detail" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -754,12 +748,12 @@
       <workItem from="1496285662173" duration="73000" />
       <workItem from="1496290045681" duration="2143000" />
       <workItem from="1496569832380" duration="461000" />
-      <workItem from="1496841016527" duration="3391000" />
+      <workItem from="1496841016527" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423576000" />
+    <option name="totallyTimeSpent" value="423914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
@@ -1055,14 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/detail/detail.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/catelog/catelog.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1134,7 +1120,7 @@
         <state relative-caret-position="29">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
           <folding>
-            <element signature="e#224#276#0" expanded="true" />
+            <element signature="e#224#276#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1213,8 +1199,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/reader/reader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="203" column="36" selection-start-line="203" selection-start-column="36" selection-end-line="203" selection-end-column="36" />
+        <state relative-caret-position="174">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/detail/detail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
           <folding />
         </state>
       </provider>

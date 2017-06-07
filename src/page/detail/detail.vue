@@ -120,8 +120,14 @@
       transDate() {
         let times = moment(this.detailData.update_time * 1000).fromNow(true).split(' ');
         switch (times[1]) {
+          case 'hour' :
+            return '1小时前';
+            break;
           case 'hours' :
             return times[0] + '小时前';
+            break;
+          case 'minute' :
+            return '1分钟前';
             break;
           case 'minutes' :
             return times[0] + '分钟前';
@@ -132,11 +138,20 @@
           case 'days' :
             return times[0] + '天前';
             break;
+          case 'week' :
+            return '1周前';
+            break;
           case 'weeks' :
             return times[0] + '周前';
             break;
+          case 'month' :
+            return '1月前';
+            break;
           case 'months' :
             return times[0] + '月前';
+            break;
+          case 'year' :
+            return  '1年前';
             break;
           case 'years' :
             return times[0] + '年前';
